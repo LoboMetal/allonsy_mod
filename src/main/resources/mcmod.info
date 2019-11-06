@@ -1,0 +1,16 @@
+[
+{
+  "modid": "allonsymod",
+  "name": "Allons-y Mod",
+  "description": "Um simples mod que vail he ajudar e atrapalhar ao mesmo tempo.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://lobometalurgico.tk/mods/allonsymod",
+  "updateUrl": "",
+  "authorList": ["LoboMetalurgico"],
+  "credits": "Criado pelo LoboMetalurgico",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
