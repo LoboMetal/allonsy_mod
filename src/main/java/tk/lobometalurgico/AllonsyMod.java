@@ -4,15 +4,17 @@ import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
+import tk.lobometalurgico.util.Names;
 
-@Mod(modid = AllonsyMod.MODID, name = AllonsyMod.NAME, version = AllonsyMod.VERSION)
+@Mod(modid = Names.MODID, version = Names.VERSION, name = Names.NAME)
+
 public class AllonsyMod
 {
-    public static final String MODID = "alonsymod";
-    public static final String NAME = "Allons-y Mod";
-    public static final String VERSION = "@VERSION@";
+    @Mod.Instance(Names.MODID)
+    public static AllonsyMod instance;
 
     private static Logger logger;
 
@@ -27,5 +29,11 @@ public class AllonsyMod
     {
         // some example code
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event)
+    {
+
     }
 }
