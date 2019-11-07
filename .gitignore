@@ -21,6 +21,7 @@ gradlew.bat
 
 #minecraft
 run/
+server/
 
 # other
 eclipse
