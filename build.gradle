@@ -26,7 +26,7 @@ minecraft {
     mappings = "${mappings_version}"
 
     replace "@VERSION@", project.version
-    replaceIn  "AllonsyMod.java"
+    replaceIn  "Names.java"
 }
 
 repositories{
