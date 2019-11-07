@@ -16,6 +16,11 @@ out
 # gradle
 build
 .gradle
+gradlew
+gradlew.bat
+
+#minecraft
+run/
 
 # other
 eclipse
