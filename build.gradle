@@ -26,7 +26,7 @@ minecraft {
     mappings = "${mappings_version}"
 
     replace "@VERSION@", project.version
-    replaceIn  "Names.java"
+    replaceIn  "Reference.java"
 }
 
 repositories{
