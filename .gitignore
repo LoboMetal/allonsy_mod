@@ -20,9 +20,8 @@ gradlew
 gradlew.bat
 
 #minecraft
-run/
-server/
+run
+server
 
 # other
 eclipse
-run
