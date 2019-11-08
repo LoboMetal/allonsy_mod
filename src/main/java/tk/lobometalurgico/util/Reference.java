@@ -1,7 +1,7 @@
 package tk.lobometalurgico.util;
 
 public class Reference {
-    public static final String MOD_ID = "alonsymod";
+    public static final String MOD_ID = "allonsymod";
     public static final String NAME = "Allons-y Mod";
     public static final String VERSION = "@VERSION@";
     public static final String ACCEPTED_VERSIONS = "[1.12.2]";
