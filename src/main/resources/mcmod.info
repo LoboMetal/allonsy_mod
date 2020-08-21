@@ -2,14 +2,14 @@
 {
   "modid": "allonsymod",
   "name": "Allons-y Mod",
-  "description": "Um simples mod que vail he ajudar e atrapalhar ao mesmo tempo.",
-  "version": "1.12.2-1.0.0-SNAPSHOT",
-  "mcversion": "1.12.2",
-  "url": "https://lobometalurgico.tk/mods/allonsymod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
   "updateUrl": "",
   "authorList": ["LoboMetalurgico"],
-  "credits": "Criado pelo LoboMetalurgico",
-  "logoFile": "allonsy_logo.png",
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
   "screenshots": [],
   "dependencies": []
 }

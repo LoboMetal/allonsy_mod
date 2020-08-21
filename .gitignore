@@ -16,12 +16,10 @@ out
 # gradle
 build
 .gradle
-gradlew
-gradlew.bat
-
-#minecraft
-run
-server
 
 # other
 eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
