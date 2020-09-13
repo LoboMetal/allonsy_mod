@@ -23,10 +23,10 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
       - name: Rename artifacts
-        run: mv target/allonsymod-*.jar target/allonsymod.jar
+        run: mv build/libs/allonsymod-*.jar build/libs/allonsymod.jar
       - name: Archive artifacts
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         if: success()
         with:
           name: AllonsyMod
-          path: target/allonsymod.jar
+          path: build/libs/allonsymod.jar
